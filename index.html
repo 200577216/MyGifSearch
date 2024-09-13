@@ -5,14 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GIF Search App</title>
     <link rel="stylesheet" href="./style.css" />
-    <!-- Bootstrap CSS -->
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
   </head>
-  <body>
-    <div class="container text-center my-5">
+  <body class="d-flex flex-column min-vh-100 h-100">
+    <div class="container text-center my-5 flex-grow-1">
       <h1 class="text-white">GIF Search App</h1>
       <div class="form-group mt-4">
         <input
@@ -25,6 +24,14 @@
       <button class="btn btn-primary mt-2" id="searchButton">Search</button>
       <div class="row mt-4" id="gifContainer"></div>
     </div>
+
+    <footer class="bg-dark text-white text-center py-3 mt-auto">
+      <div class="container">
+        <p class="mb-0">&copy; Jaydutt Patel | 200577216</p>
+        <hr class="border-2 border-white" />
+        <p class="mb-0">Lab 1 - GIF Search App!</p>
+      </div>
+    </footer>
 
     <script src="script.js"></script>
   </body>
