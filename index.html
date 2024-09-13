@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GIF Search App</title>
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container text-center my-5">
+      <h1 class="text-white">GIF Search App</h1>
+      <div class="form-group mt-4">
+        <input
+          type="text"
+          class="form-control w-50 mx-auto"
+          id="searchInput"
+          placeholder="Type a word..."
+        />
+      </div>
+      <button class="btn btn-primary mt-2" id="searchButton">Search</button>
+      <div class="row mt-4" id="gifContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
